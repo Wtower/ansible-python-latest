@@ -19,7 +19,7 @@ galaxy_info:
       - trusty
       - utopic
       - vivid
-      - willy
+      - wily
   galaxy_tags:
     - system
     - development
