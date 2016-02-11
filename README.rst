@@ -10,7 +10,7 @@ Ubuntu ships Python 3 `separately from v2`_, which is the default. Python 3 vers
 - 12.04: v3.2
 - 14.04: v3.4
 
-Add the role ``python_latest`` to `install Python 3.5`_.
+Add the role ``python-latest`` to `install Python 3.5`_.
 
 Variables
 ---------
@@ -26,7 +26,7 @@ Plain::
     # Install the latest Python 3 version
     - hosts: servers
       roles:
-        - python_latest
+        - python-latest
 
 Specify variables::
 
@@ -35,7 +35,7 @@ Specify variables::
     - hosts: "{{ host | default('localhost') }}"
       gather_facts: no
       roles:
-        - role: python_latest
+        - role: python-latest
           python_version: 3.4
 
 .. _deadsnakes: https://launchpad.net/~fkrull/+archive/ubuntu/deadsnakes
