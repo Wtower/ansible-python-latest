@@ -1,0 +1,27 @@
+---
+galaxy_info:
+  author: George Karakostas
+  description: Installs the latest Python 3 version in Ubuntu using the deadsnakes ppa
+  company: 9dev
+  license: BSD
+  min_ansible_version: 2.1
+  platforms:
+  - name: Ubuntu
+    versions:
+      - lucid
+      - maverick
+      - natty
+      - oneiric
+      - precise
+      - quantal
+      - raring
+      - saucy
+      - trusty
+      - utopic
+      - vivid
+      - willy
+  categories:
+    - system
+    - development
+
+dependencies: []
