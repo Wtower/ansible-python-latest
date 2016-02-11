@@ -20,7 +20,7 @@ galaxy_info:
       - utopic
       - vivid
       - willy
-  categories:
+  galaxy_tags:
     - system
     - development
 

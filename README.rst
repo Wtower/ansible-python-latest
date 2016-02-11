@@ -2,7 +2,7 @@
 python-latest
 =============
 
-Installs the latest **Python 3** version in **Ubuntu** using the deadsnakes_ ppa.
+Ansible role to install the latest **Python 3** version in **Ubuntu** using the deadsnakes_ ppa.
 
 Ubuntu ships Python 3 `separately from v2`_, which is the default. Python 3 versions in Ubuntu LTS releases are:
 
@@ -10,7 +10,6 @@ Ubuntu ships Python 3 `separately from v2`_, which is the default. Python 3 vers
 - 12.04: v3.2
 - 14.04: v3.4
 
-Please also note that Django requires for Python 3 min v3.4.
 Add the role ``python_latest`` to `install Python 3.5`_.
 
 Variables
