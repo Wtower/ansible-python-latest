@@ -11,7 +11,7 @@
   become: true
 
 - name: Add deadsnakes repo
-  apt_repository: repo="ppa:fkrull/deadsnakes"
+  apt_repository: repo="ppa:deadsnakes/ppa"
   become: true
 
 - name: Install python
